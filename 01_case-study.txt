@@ -1,0 +1,36 @@
+Case Study #1
+
+I CHOSE QUESTION #1:
+
+1. What initial steps could your team have taken to anticipate potential changes or discontinuation of support from third-party software providers?
+
+
+HERE ARE SOME STEPS:
+1. Keep in Touch: 
+ Regularly check in with third-party software providers to know if any changes are coming.
+
+2. Check Provider's Reputation: 
+Before using a third-party tool, make sure the company is reliable and has a good track record.
+
+3. Read Agreements Carefully: 
+ Understand what support the provider offers and for how long.
+
+4. Stay Updated:
+ Keep an eye on what's happening in your industry to spot any potential changes early.
+
+5. Test Thoroughly:
+ Make sure any new software you integrate works well with what you already have.
+
+6. Stay Flexible:
+Design your software so it's not too tied to any one provider, making it easier to switch if needed.
+
+7. Have Backup Plans: 
+Always have a plan B in case a provider stops supporting their software.
+
+These steps can help your team stay prepared and avoid being caught off guard by unexpected changes from third-party software providers.
+
+In conclusion, maintaining strong communication with third-party software providers,ensuring their reliability before integration, 
+and carefully reviewing support agreements are crucial steps in mitigating risks associated with software dependencies. 
+Additionally, staying informed about industry developments, thorough testing of new integrations, 
+designing for flexibility, and having contingency plans in place provide further safeguards against disruptions. 
+By following these practices, businesses can navigate changes in third-party software requirements with greater resilience and adaptability.

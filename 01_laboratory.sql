@@ -1,8 +1,10 @@
 Creating Database:
 CREATE DATABASE Company;
 
+
 Selecting a Database:
 USE Company;
+
 
 Creating a Table:
 CREATE TABLE Employees (
@@ -13,6 +15,7 @@ CREATE TABLE Employees (
     Department VARCHAR(255)
 );
 
+
 Inserting Data into the Table:
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Age, Department) VALUES
     (1, 'Steve', 'Jobs', 30, 'Marketing'),
@@ -21,14 +24,19 @@ INSERT INTO Employees (EmployeeID, FirstName, LastName, Age, Department) VALUES
     (4, 'Margaret', 'Edwards', 32, 'Human Resources'),
     (5, 'Sam', 'Walton', 40, 'Finance');
 
+
+
 Viewing Data:
 SELECT * FROM Employees;
+
 
 Updating Data:
 UPDATE Employees SET Department = 'Marketing' WHERE EmployeeID = 2;
 
+
 Deleting Data:
 DELETE FROM Employees WHERE EmployeeID = 3;
+
 
 Dropping the Table:
 DROP TABLE Employees;

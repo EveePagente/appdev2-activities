@@ -125,7 +125,7 @@ DB::table('students')
 // LEFT JOIN scores ON students.id = scores.student_id 
 // GROUP BY students.id;
 
-// Query builder syntax
+# Query builder syntax
 DB::table('students')
     ->leftJoin('scores', 'students.id', '=', 'scores.student_id')
     ->select('students.*', DB::raw('AVG(scores.score) AS average_score'))
@@ -147,7 +147,7 @@ DB::table('students')
 // ORDER BY student_count DESC 
 // LIMIT 5;
 
-#Query builder syntax
+# Query builder syntax
 DB::table('teachers')
     ->leftJoin('students', 'teachers.id', '=', 'students.teacher_id')
     ->select('teachers.*', DB::raw('COUNT(students.id) AS student_count'))

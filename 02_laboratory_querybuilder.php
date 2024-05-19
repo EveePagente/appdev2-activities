@@ -98,8 +98,9 @@ DB::table('teachers')
 
 
 
+
 // Task#8
-# Retrieve students with their corresponding subjects.
+//Retrieve students with their corresponding subjects.
 
 # SQL Syntax
 // SELECT students.*, subjects.name AS subject_name 
@@ -111,6 +112,7 @@ DB::table('students')
         ->join('subjects', 'students.subject_id', '=', 'subjects.id')
         ->select('students.*', 'subjects.name AS subject_name')
         ->get();
+
 
 
 
@@ -129,6 +131,7 @@ DB::table('students')
     ->select('students.*', DB::raw('AVG(scores.score) AS average_score'))
     ->groupBy('students.id')
     ->get();
+
 
 
 
@@ -152,7 +155,6 @@ DB::table('teachers')
     ->orderBy('student_count', 'desc')
     ->limit(5)
     ->get();
-
 
 ?>
 
